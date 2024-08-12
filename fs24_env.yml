@@ -1,0 +1,21 @@
+name: fs24
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - glob2
+  - numpy
+  - scipy
+  - xarray
+  - matplotlib
+  - jupyter
+  - nb_conda_kernels=2.3.1
+  - nb-clean=3.2.0
+  - ipykernel
+  - cf-units
+  - pip
+  
+  - pip:
+    - git+https://github.com/NPIOcean/kval.git@73d8339a0e101ab9506405c799662bdee3b21f04
+
