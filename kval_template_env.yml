@@ -1,4 +1,4 @@
-name: fs24
+name: kval_ctd
 channels:
   - conda-forge
   - defaults
@@ -15,7 +15,7 @@ dependencies:
   - ipykernel
   - cf-units
   - pip
-  
+
   - pip:
     - git+https://github.com/NPIOcean/kval.git@73d8339a0e101ab9506405c799662bdee3b21f04
 
