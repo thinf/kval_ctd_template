@@ -10,7 +10,6 @@ dependencies:
   - xarray
   - matplotlib
   - jupyter
-  - nb_conda_kernels=2.3.1
   - nb-clean=3.2.0
   - ipykernel
   - cf-units
