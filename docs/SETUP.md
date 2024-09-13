@@ -17,9 +17,10 @@ When you have data files, or as you get them:
 
 - Open Miniforge
 - Navigate to the root folder of this repository
-- Type `mamba env create -f fs24_env.yml`
+- Type `mamba env create -f kval_template_env.yml`
 - This should install a new mamba environment with the requirements specified in the file.
     - This includes (a specific version of) the [`kval`](https://github.com/NPIOcean/kval) library.
+- activate the environment `conda activate kval_ctd`
 
 
 
