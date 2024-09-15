@@ -4,14 +4,15 @@ channels:
   - defaults
 dependencies:
   - python=3.11
+  - jupyter
+  - nb-clean=3.2.0
+  - ipykernel
+  - nb_conda_kernels
   - glob2
   - numpy
   - scipy
   - xarray
   - matplotlib
-  - jupyter
-  - nb-clean=3.2.0
-  - ipykernel
   - cf-units
   - pip
 
